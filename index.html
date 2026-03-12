@@ -9,7 +9,7 @@
 <style>
   /* Embedding CSS Reset */
   html, body { margin: 0; padding: 0; overflow-x: hidden; }
-
+ 
   :root {
     --blue: #0065E0;
     --blue-light: #348FFF;
@@ -33,7 +33,7 @@
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: var(--font); background: transparent; color: var(--text-primary); font-size: 14px; }
-
+ 
   /* NAV REMOVED FOR EMBEDDING */ 
   /* HEADER SECTION */
   .header-section {
@@ -44,7 +44,7 @@
   .header-title { font-size: 22px; font-weight: 600; color: var(--text-primary); margin-bottom: 6px; line-height: 1.5; }
   .header-subtitle { font-size: 12px; font-weight: 300; color: var(--text-secondary); margin-bottom: 4px; }
   .header-updated { font-size: 10px; font-weight: 300; color: var(--text-secondary); margin-top: 12px; padding-bottom: 0; }
-
+ 
   /* TABS */
   .tabs-wrapper { padding: 0 32px; background: transparent; border: none; margin-bottom: 22px; }
   .tabs {
@@ -61,16 +61,16 @@
     color: #4D4D4D; background: #EEE; font-weight: 600;
     border-radius: 0;
   }
-
+ 
   /* CONTENT */
   .content { padding: 28px 32px; max-width: 1280px; margin: 0 auto; }
   .tab-panel { display: none; }
   .tab-panel.active { display: block; }
-
+ 
   /* SECTION TITLES */
   .section-title { font-size: 16px; font-weight: 400; color: #000; margin-bottom: 11px; margin-top: 43px; }
   .section-title:first-child { margin-top: 0; }
-
+ 
   /* STAT CARDS (KPI) */
   .stat-cards { display: grid; gap: 14px; margin-bottom: 29px; }
   .stat-cards-4 { grid-template-columns: repeat(4, 1fr); }
@@ -90,8 +90,8 @@
     color: #0065E0;
   }
   .stat-card-header { display: flex; align-items: flex-start; }
-
-
+ 
+ 
   /* WATERMARK */
   .chart-watermark {
     font-size: 9px; font-weight: 400; color: #C8C8C8;
@@ -110,7 +110,7 @@
   .chart-card-sub { font-size: 11px; font-weight: 300; color: var(--text-secondary); margin-bottom: 16px; }
   .chart-source { font-size: 10px; font-weight: 300; color: var(--text-secondary); margin-top: 10px; text-align: right; }
   .chart-container { position: relative; }
-
+ 
   /* STRATEGIC CARDS */
   .strategic-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 22px; }
   .strategic-card {
@@ -132,7 +132,7 @@
   .strategic-headline { font-size: 15px; font-weight: 600; line-height: 1.4; color: var(--text-primary); margin-bottom: 4px; }
   .strategic-insight { font-size: 12px; color: var(--text-secondary); line-height: 1.5; }
   .strategic-chart { padding: 16px 20px 10px; }
-
+ 
   /* FILTER BAR */
   .filter-bar { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; flex-wrap: wrap; }
   .filter-label { font-size: 11px; font-weight: 500; color: #787878; margin-bottom: 4px; display: block; }
@@ -142,7 +142,7 @@
     appearance: none; background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23787878' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E") no-repeat right 12px center;
     cursor: pointer; min-width: 160px;
   }
-
+ 
   /* TABLE */
   .data-table { width: 100%; border-collapse: collapse; font-size: 12px; }
   .data-table th { text-align: left; padding: 8px 12px; border-bottom: 2px solid #E5E7EB; font-size: 11px; color: var(--text-secondary); font-weight: 600; text-transform: uppercase; letter-spacing: .4px; }
@@ -153,7 +153,7 @@
   .badge-green { background: var(--green-light); color: var(--green); }
   .badge-red { background: var(--red-light); color: var(--red); }
   .badge-orange { background: var(--orange-light); color: var(--orange); }
-
+ 
   /* RANGE SLIDER */
   .range-row { display: flex; align-items: center; gap: 10px; font-size: 11px; font-weight: 400; color: #787878; }
   .range-row input[type=range] {
@@ -169,13 +169,13 @@
     width: 16px; height: 16px; border-radius: 50%;
     background: #fff; border: 2px solid #333; cursor: pointer;
   }
-
+ 
   /* LEGEND */
   .legend { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 8px; }
   .legend-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--text-secondary); }
   .legend-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
   .legend-line { width: 16px; height: 3px; border-radius: 2px; flex-shrink: 0; }
-
+ 
   /* PRIO PILLS */
   .prio-pill {
     padding: 8px 20px; font-size: 13px; font-weight: 500; cursor: pointer;
@@ -186,21 +186,21 @@
   .prio-pill.active {
     background: #1E2A3A; color: #fff; border-color: #1E2A3A; font-weight: 600;
   }
-
+ 
   /* DIVIDER */
   .divider { border: none; border-top: 1px solid #E5E7EB; margin: 28px 0; }
-
+ 
   /* INFO ICON */
   .info-icon { display: inline-flex; align-items: center; justify-content: center; width: 14px; height: 14px; border-radius: 50%; border: 1px solid #CCC; color: #9CA3AF; font-size: 9px; font-weight: 700; cursor: help; flex-shrink: 0; }
-
+ 
   /* METRIC DELTA */
   .delta-up { color: var(--green); font-size: 11px; font-weight: 600; }
   .delta-down { color: var(--red); font-size: 11px; font-weight: 600; }
-
+ 
   /* FOOTER */
   .page-footer { padding: 16px 32px; display: flex; justify-content: flex-end; }
   .page-footer span { font-size: 10px; font-weight: 300; color: var(--text-secondary); }
-
+ 
   @media (max-width: 900px) {
     .stat-cards-4, .stat-cards-3 { grid-template-columns: repeat(2, 1fr); }
     .chart-grid-2, .chart-grid-3 { grid-template-columns: 1fr; }
@@ -210,17 +210,13 @@
 </style>
 </head>
 <body>
-
+ 
 <!-- TOP NAV -->
-
-
-<!-- HEADER SECTION -->
+ 
+ 
+<!-- KPI CARDS -->
 <div style="max-width:1280px;margin:22px auto 0;padding:0 32px;">
-<div class="header-section">
-    <div style="font-size:12px;color:var(--gray-500);margin-bottom:6px;font-family:var(--mono);">VISTA NACIONAL · 191 establecimientos</div>
-    <div class="header-title">Red Hospitalaria Pública de Chile</div>
-    <div class="header-subtitle">Datos agregados · Sistema Nacional de Salud</div>
-    <div class="stat-cards stat-cards-4" style="margin-bottom:0;padding-bottom:0;">
+    <div class="stat-cards stat-cards-4">
       <div class="stat-card">
         <div class="stat-card-label">Establecimientos <span class="info-icon">i</span></div>
         <div class="stat-card-header">
@@ -262,11 +258,10 @@
         <div class="stat-card-sub">Diciembre 2025</div>
       </div>
     </div>
-    <div class="header-updated">Datos actualizados 02-03-2026</div>
+    <div style="font-size:10px;font-weight:300;color:var(--text-secondary);margin-top:12px;">Datos actualizados 02-03-2026</div>
 </div>
-</div>
-
-
+ 
+ 
 <!-- TABS -->
 <div class="tabs-wrapper">
   <div style="max-width:1200px;margin:0 auto;">
@@ -279,19 +274,19 @@
     </div>
   </div>
 </div>
-
+ 
 <!-- =========================================================
      PORTADA / RESUMEN NACIONAL
      ========================================================= -->
 <div class="content">
 <div id="panel-portada" class="tab-panel active">
-
+ 
   <div style="font-size:13px;color:var(--gray-600);margin-bottom:20px;line-height:1.6;">
     Cuatro hallazgos clave para orientar la toma de decisiones en la red hospitalaria pública. Selecciona un hospital en el mapa para ver su detalle.
   </div>
-
+ 
   <div class="strategic-grid">
-
+ 
     <!-- MENSAJE 1: Heterogeneidad en listas de espera -->
     <div class="strategic-card">
       <div class="strategic-header">
@@ -312,7 +307,7 @@
         </div>
       </div>
     </div>
-
+ 
     <!-- MENSAJE 2: Gasto por tipo -->
     <div class="strategic-card">
       <div class="strategic-header">
@@ -338,7 +333,7 @@
         </div>
       </div>
     </div>
-
+ 
     <!-- MENSAJE 3: Composición dotación -->
     <div class="strategic-card">
       <div class="strategic-header">
@@ -362,7 +357,7 @@
         </div>
       </div>
     </div>
-
+ 
     <!-- MENSAJE 4: Brecha especialistas -->
     <div class="strategic-card">
       <div class="strategic-header">
@@ -383,9 +378,9 @@
         </div>
       </div>
     </div>
-
+ 
   </div><!-- /strategic-grid -->
-
+ 
   <!-- RANKING TABLE -->
   <div class="section-title">Top hospitales por registros en lista de espera</div>
   <div class="chart-card">
@@ -421,20 +416,20 @@
     </table>
     <div class="chart-source" style="margin-top:12px;">Fuente: Visor Ciudadano de Tiempos de Espera (Minsal).</div>
   </div>
-
+ 
   <!-- PRIORIDADES -->
   <div class="section-title" style="margin-top:36px;">Espera por prioridad</div>
-
+ 
   <!-- Sub-tabs prioridad (pill style) -->
   <div style="display:inline-flex;gap:8px;margin-bottom:20px;" id="prio-tabs">
     <div class="prio-pill active" onclick="showPrio('onco',this)">Oncológica <span style="opacity:0.4;margin:0 4px;">·</span><span style="font-weight:400;opacity:0.7;">148.200</span></div>
     <div class="prio-pill" onclick="showPrio('trauma',this)">Traumatológica <span style="opacity:0.4;margin:0 4px;">·</span><span style="font-weight:400;opacity:0.7;">162.400</span></div>
   </div>
-
+ 
   <!-- Panel Oncológica -->
   <div id="prio-onco">
     <div style="font-size:12px;color:var(--text-secondary);margin-bottom:16px;">Oncología Médica · Oncología Radioterápica · Hematología</div>
-
+ 
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:20px;">
       <div class="stat-card" style="padding:14px;">
         <div class="stat-card-label">Registros en espera</div>
@@ -447,7 +442,7 @@
         <div class="stat-card-sub">Diciembre 2025</div>
       </div>
     </div>
-
+ 
     <div class="chart-grid chart-grid-2">
       <div class="chart-card">
         <div class="chart-card-title">Registros por mes <span class="info-icon">i</span></div>
@@ -462,7 +457,7 @@
         <div class="chart-source">Fuente: Visor Ciudadano (Minsal).</div>
       </div>
     </div>
-
+ 
     <div style="margin-top:4px;">
       <div style="font-size:13px;font-weight:500;color:var(--text-primary);margin-bottom:10px;">Top hospitales por espera oncológica</div>
       <table class="data-table" style="font-size:11px;">
@@ -478,11 +473,11 @@
       <div class="chart-source" style="margin-top:8px;">Fuente: Visor Ciudadano (Minsal).</div>
     </div>
   </div>
-
+ 
   <!-- Panel Traumatología -->
   <div id="prio-trauma" style="display:none;">
     <div style="font-size:12px;color:var(--text-secondary);margin-bottom:16px;">Traumatología y Ortopedia · Columna · Mano y Muñeca</div>
-
+ 
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:20px;">
       <div class="stat-card" style="padding:14px;">
         <div class="stat-card-label">Registros en espera</div>
@@ -495,7 +490,7 @@
         <div class="stat-card-sub">Diciembre 2025</div>
       </div>
     </div>
-
+ 
     <div class="chart-grid chart-grid-2">
       <div class="chart-card">
         <div class="chart-card-title">Registros por mes <span class="info-icon">i</span></div>
@@ -510,7 +505,7 @@
         <div class="chart-source">Fuente: Visor Ciudadano (Minsal).</div>
       </div>
     </div>
-
+ 
     <div style="margin-top:4px;">
       <div style="font-size:13px;font-weight:500;color:var(--text-primary);margin-bottom:10px;">Top hospitales por espera traumatológica</div>
       <table class="data-table" style="font-size:11px;">
@@ -526,15 +521,15 @@
       <div class="chart-source" style="margin-top:8px;">Fuente: Visor Ciudadano (Minsal).</div>
     </div>
   </div>
-
+ 
 </div><!-- /portada -->
-
-
+ 
+ 
 <!-- =========================================================
      CAPACIDAD
      ========================================================= -->
 <div id="panel-capacidad" class="tab-panel">
-
+ 
   <div class="stat-cards stat-cards-4" style="margin-bottom:28px;">
     <div class="stat-card">
       <div class="stat-card-label">Índice Ocupacional Promedio <span class="info-icon">i</span></div>
@@ -577,7 +572,7 @@
       <div class="stat-card-sub">Noviembre 2025</div>
     </div>
   </div>
-
+ 
   <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;">
     <div class="section-title" style="margin:0;">Evolución de indicadores de capacidad</div>
     <div style="display:flex;gap:16px;align-items:center;">
@@ -591,7 +586,7 @@
       </div>
     </div>
   </div>
-
+ 
   <div class="chart-grid chart-grid-2">
     <div class="chart-card">
       <div class="chart-card-title">Índice ocupacional promedio <span class="info-icon">i</span></div>
@@ -622,7 +617,7 @@
       <div class="chart-source">Fuente: Indicadores Hospitalarios REM20 (DEIS).</div>
     </div>
   </div>
-
+ 
   <div class="section-title">Gasto total por tipo de hospital</div>
   <div class="chart-card">
     <div class="chart-card-title">Gasto total agregado por año y complejidad <span class="info-icon">i</span></div>
@@ -637,13 +632,13 @@
     <div class="chart-source">Fuente: Datos Abiertos (Fonasa y SIGFE).</div>
   </div>
 </div><!-- /capacidad -->
-
-
+ 
+ 
 <!-- =========================================================
      DOTACIÓN
      ========================================================= -->
 <div id="panel-dotacion" class="tab-panel">
-
+ 
   <div class="stat-cards stat-cards-3" style="margin-bottom:28px;">
     <div class="stat-card">
       <div class="stat-card-label">Personal total <span class="info-icon">i</span></div>
@@ -676,7 +671,7 @@
       <div class="stat-card-sub">Diciembre 2025</div>
     </div>
   </div>
-
+ 
   <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;">
     <div class="section-title" style="margin:0;">Distribución del personal</div>
     <div style="display:flex;align-items:center;gap:6px;">
@@ -684,7 +679,7 @@
       <select class="filter-select"><option>Todos los contratos</option><option>Planta</option><option>A contrata</option><option>Honorarios</option></select>
     </div>
   </div>
-
+ 
   <div class="chart-grid chart-grid-2">
     <div class="chart-card">
       <div class="chart-card-title">Distribución por tipo de contratación <span class="info-icon">i</span></div>
@@ -701,7 +696,7 @@
       <div class="chart-source">Fuente: Portal de Transparencia.</div>
     </div>
   </div>
-
+ 
   <div class="section-title">Análisis de movimientos de personal 2025</div>
   <div class="chart-grid chart-grid-2">
     <div class="chart-card">
@@ -727,7 +722,7 @@
       <div class="chart-source">Fuente: Portal de Transparencia.</div>
     </div>
   </div>
-
+ 
   <div class="section-title">Dotación por región</div>
   <div class="chart-card">
     <div class="chart-card-title">Personal total por región <span class="info-icon">i</span></div>
@@ -737,13 +732,13 @@
     <div class="chart-source">Fuente: Portal de Transparencia.</div>
   </div>
 </div><!-- /dotacion -->
-
-
+ 
+ 
 <!-- =========================================================
      ATENCIÓN
      ========================================================= -->
 <div id="panel-atencion" class="tab-panel">
-
+ 
   <div class="stat-cards stat-cards-2" style="margin-bottom:28px;">
     <div class="stat-card">
       <div class="stat-card-label">Total consultas de especialidad <span class="info-icon">i</span></div>
@@ -766,7 +761,7 @@
       <div class="stat-card-sub">Diciembre 2024</div>
     </div>
   </div>
-
+ 
   <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;">
     <div class="section-title" style="margin:0;">Consultas de especialidad</div>
     <div style="display:flex;gap:16px;align-items:center;">
@@ -780,7 +775,7 @@
       </div>
     </div>
   </div>
-
+ 
   <div class="chart-grid chart-grid-2">
     <div class="chart-card">
       <div class="chart-card-title">Top 10 especialidades por número de consultas <span class="info-icon">i</span></div>
@@ -797,7 +792,7 @@
       <div class="chart-source">Fuente: Resumen Estadístico Mensual (DEIS).</div>
     </div>
   </div>
-
+ 
   <div class="section-title">Consultas por región</div>
   <div class="chart-card">
     <div class="chart-card-title">Total consultas de especialidad por región <span class="info-icon">i</span></div>
@@ -807,13 +802,13 @@
     <div class="chart-source">Fuente: Resumen Estadístico Mensual (DEIS).</div>
   </div>
 </div><!-- /atencion -->
-
-
+ 
+ 
 <!-- =========================================================
      LISTAS DE ESPERA
      ========================================================= -->
 <div id="panel-espera" class="tab-panel">
-
+ 
   <div class="stat-cards stat-cards-2" style="margin-bottom:28px;">
     <div class="stat-card">
       <div class="stat-card-label">Registros en espera <span class="info-icon">i</span></div>
@@ -836,7 +831,7 @@
       <div class="stat-card-sub">Diciembre 2025</div>
     </div>
   </div>
-
+ 
   <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;">
     <div class="section-title" style="margin:0;">Listas de espera</div>
     <div style="display:flex;gap:16px;align-items:center;">
@@ -854,7 +849,7 @@
       </div>
     </div>
   </div>
-
+ 
   <div class="chart-grid chart-grid-2">
     <div class="chart-card">
       <div class="chart-card-title">Registros por mes <span class="info-icon">i</span></div>
@@ -871,7 +866,7 @@
       <div class="chart-source">Fuente: Visor Ciudadano de Tiempos de Espera (Minsal).</div>
     </div>
   </div>
-
+ 
   <div class="section-title">Top 10 especialidades por lista de espera</div>
   <div class="chart-grid chart-grid-2">
     <div class="chart-card">
@@ -889,7 +884,7 @@
       <div class="chart-source">Fuente: Visor Ciudadano de Tiempos de Espera (Minsal).</div>
     </div>
   </div>
-
+ 
   <div class="section-title">Distribución territorial de la espera</div>
   <div class="chart-card">
     <div class="chart-card-title">Registros en espera y mediana de días por región <span class="info-icon">i</span></div>
@@ -903,11 +898,11 @@
     <div class="chart-source">Fuente: Visor Ciudadano de Tiempos de Espera (Minsal).</div>
   </div>
 </div><!-- /espera -->
-
+ 
 </div><!-- /content -->
-
-
-
+ 
+ 
+ 
 <script>
 // ── HELPERS ────────────────────────────────────────────────────────────────
 const BLUE = '#0065E0';
@@ -917,7 +912,7 @@ const ORANGE = '#8B73FF';
 const RED = '#1E117C';
 const GREEN = '#81D877';
 const GRAY = '#EAEADE';
-
+ 
 const baseOpts = (yLabel='', xLabel='') => ({
   responsive: true,
   maintainAspectRatio: true,
@@ -933,27 +928,27 @@ const lineData = (labels, data, color, fill=false) => ({
     borderWidth: 2, pointRadius: 2, pointHoverRadius: 4, tension: 0.35, fill }]
 });
 const barData = (labels, datasets) => ({ labels, datasets });
-
+ 
 // Months
 const months2024 = ['Ene-24','Feb-24','Mar-24','Abr-24','May-24','Jun-24','Jul-24','Ago-24','Sep-24','Oct-24','Nov-24','Dic-24'];
 const months2025 = ['Ene-25','Feb-25','Mar-25','Abr-25','May-25','Jun-25','Jul-25','Ago-25','Sep-25','Oct-25','Nov-25','Dic-25'];
 const months23_25 = ['Ene-23','Abr-23','Jul-23','Oct-23','Ene-24','Abr-24','Jul-24','Oct-24','Ene-25','Abr-25','Jul-25','Oct-25'];
 const years = ['2013','2014','2015','2016','2017','2018','2019','2020','2021','2022','2023','2024'];
 const regiones = ['Arica','Tarapacá','Antofag.','Atacama','Coquimbo','Valparaíso','RM','O\'Higgins','Maule','Ñuble','Bío Bío','Araucanía','Los Ríos','Los Lagos','Aysén','Magallanes'];
-
+ 
 function mkChart(id, type, data, opts) {
   const el = document.getElementById(id);
   if (!el) return;
   return new Chart(el.getContext('2d'), { type, data, options: opts });
 }
-
+ 
 // ── PORTADA ────────────────────────────────────────────────────────────────
 // Ch1: Espera por region (horizontal bar)
 mkChart('ch-espera-region', 'bar', {
   labels: ['Araucanía','Aysén','Los Lagos','Tarapacá','Antofag.','Bío Bío','Maule','Valparaíso','RM','Atacama'],
   datasets: [{ data: [412,398,374,352,341,320,307,298,287,265], backgroundColor: regArr => regArr.dataIndex < 4 ? ORANGE : BLUE, borderRadius: 3 }]
 }, { ...baseOpts(), indexAxis:'y', plugins: { legend:{display:false}, tooltip:{mode:'index',intersect:false} }, scales: { x: { grid:{color:'#F0F0F0'}, ticks:{font:{size:10},color:'#9E9E9E'} }, y:{grid:{display:false},ticks:{font:{size:10},color:'#9E9E9E'}} } });
-
+ 
 // Ch2: Gasto por tipo
 mkChart('ch-gasto-tipo', 'bar', barData(
   ['Alta','Media','Baja'],
@@ -963,7 +958,7 @@ mkChart('ch-gasto-tipo', 'bar', barData(
     { label:'Baja', data:[190000,210000,230000], backgroundColor:BLUE3, borderRadius:4 },
   ]
 ), { ...baseOpts(), plugins:{ legend:{display:false}, tooltip:{mode:'index'} }, scales:{ x:{grid:{display:false},ticks:{font:{size:10},color:'#9E9E9E'}}, y:{beginAtZero:true,grid:{color:'#F0F0F0'},ticks:{font:{size:10},color:'#9E9E9E', callback:v=>(v/1000000).toFixed(1)+'MM$'}} } });
-
+ 
 // Ch3: Dotacion pie
 const dotLabels = ['Profesional','Técnico','Méd. cirujano','Administrativo','Auxiliar','Directivo','Sin info'];
 const dotData = [82000,51000,28000,24000,15000,3000,11320];
@@ -972,7 +967,7 @@ mkChart('ch-dotacion-tipo', 'doughnut', { labels: dotLabels, datasets:[{ data:do
   { responsive:true, maintainAspectRatio:true, plugins:{ legend:{display:false}, tooltip:{callbacks:{label:c=>`${c.label}: ${((c.raw/214320)*100).toFixed(1)}%`}} }, cutout:'62%' });
 const leg = document.getElementById('dotacion-legend');
 if(leg) dotLabels.forEach((l,i)=>{ leg.innerHTML+=`<div style="display:flex;align-items:center;gap:5px"><span style="width:10px;height:10px;background:${dotColors[i]};border-radius:50%;display:inline-block;flex-shrink:0"></span>${l}: ${((dotData[i]/214320)*100).toFixed(1)}%</div>`; });
-
+ 
 // Ch4: Brecha
 mkChart('ch-brecha', 'bar', {
   labels: ['Neurocirugía','Cardiovasc.','Urología','Traumatología','Ginecología','Infectología','Dermatología'],
@@ -981,7 +976,7 @@ mkChart('ch-brecha', 'bar', {
     { label:'Especialistas por 100k (índice)', data:[180,210,280,340,420,380,290], backgroundColor: BLUE+'99', borderRadius:3 },
   ]
 }, { ...baseOpts(), plugins:{ legend:{display:false}, tooltip:{mode:'index',intersect:false} }, scales:{ x:{grid:{display:false},ticks:{font:{size:10},color:'#9E9E9E'}}, y:{beginAtZero:true,grid:{color:'#F0F0F0'},ticks:{font:{size:10},color:'#9E9E9E'}} } });
-
+ 
 // ── CAPACIDAD ──────────────────────────────────────────────────────────────
 const ocupData = [72,73,75,76,74,73,69,71,72,73,74,32,45,55,65,68,70,71,72,73,74,75,74,73];
 const months12y = ['Ene-23','Abr-23','Jul-23','Oct-23','Ene-24','Abr-24','Jul-24','Oct-24','Ene-25','Abr-25','Jul-25','Oct-25'];
@@ -994,11 +989,11 @@ mkChart('ch-gasto-full', 'bar', barData(years, [
   { label:'Media', data:[220000,240000,250000,265000,280000,310000,380000,430000,540000,590000,620000,650000], backgroundColor:BLUE2, stack:'s', borderRadius:0 },
   { label:'Baja', data:[65000,70000,72000,78000,82000,90000,110000,130000,160000,175000,185000,195000], backgroundColor:BLUE3, stack:'s', borderRadius:[0,0,4,4] },
 ]), { ...baseOpts(), plugins:{legend:{display:false},tooltip:{mode:'index',intersect:false}}, scales:{ x:{grid:{display:false},stacked:true,ticks:{font:{size:10},color:'#9E9E9E'}}, y:{beginAtZero:true,stacked:true,grid:{color:'#F0F0F0'},ticks:{font:{size:10},color:'#9E9E9E',callback:v=>(v/1000000).toFixed(1)+'MM$'}} } });
-
+ 
 // ── DOTACIÓN ───────────────────────────────────────────────────────────────
 mkChart('ch-contrato', 'bar', { labels:['Planta','A contrata','Honorarios'], datasets:[{ data:[75000,120960,18360], backgroundColor:[BLUE,BLUE2,BLUE3], borderRadius:4 }] }, { ...baseOpts('Personas'), indexAxis:'y', plugins:{legend:{display:false}}, scales:{ x:{grid:{color:'#F0F0F0'},ticks:{font:{size:10},color:'#9E9E9E'}}, y:{grid:{display:false},ticks:{font:{size:10},color:'#9E9E9E'}} } });
 mkChart('ch-cargos', 'bar', { labels:['Profesional','Técnico','Méd. cirujano','Administrativo','Auxiliar','Sin info','Directivo'], datasets:[{ data:[82000,51000,28000,24000,15000,11320,3000], backgroundColor: Array(7).fill(BLUE), borderRadius:3 }] }, { ...baseOpts(), indexAxis:'y', plugins:{legend:{display:false}}, scales:{ x:{grid:{color:'#F0F0F0'},ticks:{font:{size:10},color:'#9E9E9E'}}, y:{grid:{display:false},ticks:{font:{size:10},color:'#9E9E9E'}} } });
-
+ 
 const meses2025 = ['Feb-24','Mar-24','Abr-24','May-24','Jun-24','Jul-24','Ago-24','Sep-24','Oct-24','Nov-24','Dic-24','Ene-25','Feb-25','Mar-25','Abr-25','May-25','Jun-25','Jul-25','Ago-25','Sep-25','Oct-25','Nov-25','Dic-25'];
 const entradas = [1200,3800,14000,1400,1100,1300,1200,1400,1100,1200,1100,1300,1200,1200,1300,1100,1200,1300,1200,1100,1200,1100,1100];
 const salidas  = [1100,1200,1300,1300,1200,1400,1200,1300,1100,1000,1200,1300,1100,1200,1100,1300,1200,1100,1300,1100,1200,1100,1000];
@@ -1006,7 +1001,7 @@ mkChart('ch-movimientos', 'bar', barData(meses2025, [
   { label:'Entradas', data:entradas, backgroundColor:BLUE, borderRadius:2 },
   { label:'Salidas', data:salidas, backgroundColor:BLUE3, borderRadius:2 },
 ]), { ...baseOpts(), plugins:{legend:{display:false},tooltip:{mode:'index'}}, scales:{ x:{grid:{display:false},ticks:{font:{size:8},color:'#9E9E9E',maxRotation:45}}, y:{beginAtZero:true,grid:{color:'#F0F0F0'},ticks:{font:{size:10},color:'#9E9E9E'}} } });
-
+ 
 const interanual = ['Feb-25','Mar-25','Abr-25','May-25','Jun-25','Jul-25','Ago-25','Sep-25','Oct-25','Nov-25','Dic-25'];
 const aum = [120,2800,8200,180,210,240,195,170,160,90,80];
 const dism= [80,100,90,110,95,100,85,95,80,120,110];
@@ -1014,33 +1009,33 @@ mkChart('ch-variacion-dot', 'bar', barData(interanual, [
   { label:'Aumento', data:aum, backgroundColor:BLUE, borderRadius:2 },
   { label:'Disminución', data:dism, backgroundColor:GRAY, borderRadius:2 },
 ]), { ...baseOpts(), plugins:{legend:{display:false},tooltip:{mode:'index'}}, scales:{ x:{grid:{display:false},ticks:{font:{size:10},color:'#9E9E9E'}}, y:{beginAtZero:true,grid:{color:'#F0F0F0'},ticks:{font:{size:10},color:'#9E9E9E'}} } });
-
+ 
 mkChart('ch-dot-region', 'bar', barData(regiones, [{ data:[3200,4800,8200,3400,9100,22000,89000,10200,12000,5400,16800,14200,5200,9800,1200,1520], backgroundColor:BLUE, borderRadius:3 }]), { ...baseOpts('Personas'), plugins:{legend:{display:false}}, scales:{ x:{grid:{display:false},ticks:{font:{size:9},color:'#9E9E9E',maxRotation:40}}, y:{beginAtZero:true,grid:{color:'#F0F0F0'},ticks:{font:{size:10},color:'#9E9E9E'}} } });
-
+ 
 // ── ATENCIÓN ───────────────────────────────────────────────────────────────
 mkChart('ch-top-esp', 'bar', {
   labels:['Ginecología Adulto','Neurología Pediátrica','Oncología Médica','Traumatología','Infectología','Dermatología','Endocrinología','Oftalmología','Enf. Respiratoria','Urología'],
   datasets:[{ data:[198000,162000,145000,138000,121000,112000,98000,94000,88000,82000], backgroundColor:BLUE, borderRadius:3 }]
 }, { ...baseOpts(), indexAxis:'y', plugins:{legend:{display:false}}, scales:{ x:{grid:{color:'#F0F0F0'},ticks:{font:{size:10},color:'#9E9E9E',callback:v=>(v/1000).toFixed(0)+'k'}}, y:{grid:{display:false},ticks:{font:{size:10},color:'#9E9E9E'}} } });
-
+ 
 mkChart('ch-consultas-mes', 'line', lineData(months2024,[1820000,1780000,2010000,2050000,1960000,1940000,1850000,1900000,1980000,1920000,1720000,1520000], BLUE, true), { ...baseOpts(), scales:{ x:{grid:{display:false},ticks:{font:{size:10},color:'#9E9E9E'}}, y:{beginAtZero:false,grid:{color:'#F0F0F0'},ticks:{font:{size:10},color:'#9E9E9E',callback:v=>(v/1000000).toFixed(1)+'M'}} } });
-
+ 
 mkChart('ch-cons-region', 'bar', barData(regiones, [{ data:[18000,28000,52000,22000,62000,142000,620000,68000,82000,38000,110000,98000,34000,62000,8200,9800], backgroundColor:BLUE, borderRadius:3 }]), { ...baseOpts(), plugins:{legend:{display:false}}, scales:{ x:{grid:{display:false},ticks:{font:{size:9},color:'#9E9E9E',maxRotation:40}}, y:{beginAtZero:true,grid:{color:'#F0F0F0'},ticks:{font:{size:10},color:'#9E9E9E',callback:v=>(v/1000).toFixed(0)+'k'}} } });
-
+ 
 // ── LISTAS DE ESPERA ───────────────────────────────────────────────────────
 mkChart('ch-reg-mes', 'line', lineData(months23_25,[1180000,1200000,1210000,1220000,1240000,1260000,1280000,1290000,1310000,1340000,1370000,1410000], BLUE, true), { ...baseOpts(), scales:{ x:{grid:{display:false},ticks:{font:{size:10},color:'#9E9E9E'}}, y:{beginAtZero:false,grid:{color:'#F0F0F0'},ticks:{font:{size:10},color:'#9E9E9E',callback:v=>(v/1000000).toFixed(2)+'M'}} } });
 mkChart('ch-tiempo-mes', 'line', lineData(months23_25,[261,265,268,272,275,278,280,282,284,285,286,287], ORANGE, false), { ...baseOpts('Días (mediana)'), scales:{ x:{grid:{display:false},ticks:{font:{size:10},color:'#9E9E9E'}}, y:{beginAtZero:false,grid:{color:'#F0F0F0'},ticks:{font:{size:10},color:'#9E9E9E'}} } });
-
+ 
 mkChart('ch-top-reg', 'bar', {
   labels:['Ginecología y Obst.','Cirugía Digestiva','Urología y Nefrol.','Traumatología','Neurocirugía','Cirugía de Cabeza'],
   datasets:[{ data:[285000,198000,172000,162000,148000,92000], backgroundColor:BLUE, borderRadius:3 }]
 }, { ...baseOpts(), indexAxis:'y', plugins:{legend:{display:false}}, scales:{ x:{grid:{color:'#F0F0F0'},ticks:{font:{size:10},color:'#9E9E9E',callback:v=>(v/1000).toFixed(0)+'k'}}, y:{grid:{display:false},ticks:{font:{size:10},color:'#9E9E9E'}} } });
-
+ 
 mkChart('ch-top-tiempo', 'bar', {
   labels:['Neurocirugía','ORL','Cirugía Cardiovasc.','Urología y Nefrol.','Ginecología y Obst.','Traumatología'],
   datasets:[{ data:[520,490,448,412,380,340], backgroundColor: ORANGE+'CC', borderRadius:3 }]
 }, { ...baseOpts('Días (mediana)'), indexAxis:'y', plugins:{legend:{display:false}}, scales:{ x:{grid:{color:'#F0F0F0'},ticks:{font:{size:10},color:'#9E9E9E'}}, y:{grid:{display:false},ticks:{font:{size:10},color:'#9E9E9E'}} } });
-
+ 
 // Combo: registros + mediana por region
 mkChart('ch-espera-region-full', 'bar', {
   labels: regiones,
@@ -1053,10 +1048,10 @@ mkChart('ch-espera-region-full', 'bar', {
   y:{beginAtZero:true,grid:{color:'#F0F0F0'},ticks:{font:{size:10},color:'#9E9E9E',callback:v=>(v/1000).toFixed(0)+'k'},position:'left'},
   y2:{beginAtZero:false,grid:{display:false},ticks:{font:{size:10},color:ORANGE},position:'right'}
 } });
-
+ 
 // ── PRIORIDAD ONCOLÓGICA ───────────────────────────────────────────────────
 const oncoMonths = ['Ene-23','Abr-23','Jul-23','Oct-23','Ene-24','Abr-24','Jul-24','Oct-24','Ene-25','Abr-25','Jul-25','Oct-25'];
-
+ 
 const smallLineOpts = (color) => ({
   responsive: true, maintainAspectRatio: false,
   plugins: { legend:{display:false}, tooltip:{mode:'index',intersect:false} },
@@ -1065,7 +1060,7 @@ const smallLineOpts = (color) => ({
     y: { beginAtZero:false, grid:{color:'#F0F0F0'}, ticks:{font:{size:8}, color:'#9E9E9E', maxTicksLimit:4, callback:v=>(v>=1000?(v/1000).toFixed(0)+'k':v)} }
   }
 });
-
+ 
 const smallBarOpts = () => ({
   responsive: true, maintainAspectRatio: false, indexAxis:'y',
   plugins: { legend:{display:false}, tooltip:{mode:'index',intersect:false} },
@@ -1074,24 +1069,24 @@ const smallBarOpts = () => ({
     y: { grid:{display:false}, ticks:{font:{size:8}, color:'#9E9E9E'} }
   }
 });
-
+ 
 mkChart('ch-onco-reg', 'line', lineData(oncoMonths,
   [128000,130000,131500,133000,135000,137500,139000,140800,142500,144200,146000,148200],
   ORANGE, true), smallLineOpts(ORANGE));
-
+ 
 mkChart('ch-onco-tiempo', 'line', lineData(oncoMonths,
   [298,305,312,318,322,328,333,337,339,340,341,341],
   ORANGE, false), smallLineOpts(ORANGE));
-
+ 
 // ── PRIORIDAD TRAUMATOLOGÍA ────────────────────────────────────────────────
 mkChart('ch-trauma-reg', 'line', lineData(oncoMonths,
   [138000,140200,143000,146000,149000,152000,154500,157000,158800,160200,161500,162400],
   BLUE, true), smallLineOpts(BLUE));
-
+ 
 mkChart('ch-trauma-tiempo', 'line', lineData(oncoMonths,
   [272,278,284,289,294,298,302,306,308,309,310,310],
   BLUE, false), smallLineOpts(BLUE));
-
+ 
 // ── BUSCADOR DE HOSPITALES ─────────────────────────────────────────────────
 const HOSPITALES = [
   { nombre: 'H. Clínico San Borja Arriarán', region: 'RM', complejidad: 'Alta', espera: 5190, mediana: 292 },
@@ -1115,10 +1110,10 @@ const HOSPITALES = [
   { nombre: 'H. de La Serena', region: 'Coquimbo', complejidad: 'Alta', espera: 1920, mediana: 298 },
   { nombre: 'H. San Pablo de Coquimbo', region: 'Coquimbo', complejidad: 'Media', espera: 1340, mediana: 285 },
 ];
-
+ 
 const badgeColor = c => c === 'Alta' ? '#FFEBEE' : c === 'Media' ? '#FFF3E0' : '#E8F5E9';
 const badgeText  = c => c === 'Alta' ? '#1E117C' : c === 'Media' ? '#8B73FF' : '#81D877';
-
+ 
 function filterHospitals(q) {
   const box = document.getElementById('search-results');
   const term = q.trim().toLowerCase();
@@ -1143,19 +1138,19 @@ function filterHospitals(q) {
     </div>`).join('');
   box.style.display = 'block';
 }
-
+ 
 function selectHospital(nombre) {
   console.log('Navegar a ficha de:', nombre);
   // Aquí iría la navegación al dashboard del hospital
 }
-
+ 
 function showTab(name, el) {
   document.querySelectorAll('.tab-panel').forEach(p=>p.classList.remove('active'));
   document.querySelectorAll('.tabs-wrapper .tab').forEach(t=>t.classList.remove('active'));
   document.getElementById('panel-'+name).classList.add('active');
   el.classList.add('active');
 }
-
+ 
 function showPrio(name, el) {
   document.getElementById('prio-onco').style.display = name === 'onco' ? 'block' : 'none';
   document.getElementById('prio-trauma').style.display = name === 'trauma' ? 'block' : 'none';
